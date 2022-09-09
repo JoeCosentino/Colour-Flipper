@@ -1,8 +1,8 @@
 const colours = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" ];
 
-const hexColour = document.querySelector('.colour');
+const hexColour = document.querySelector('.hexColour');
 const button = document.getElementById('btn');
-const bodyClass = document.querySelector('.body')
+const bodyClass = document.querySelector('.hexBody')
 
 button.addEventListener('click', function() {
     let hex = "#"
