@@ -7,14 +7,12 @@ const bodyClass = document.querySelector('.hexBody')
 button.addEventListener('click', function() {
     let hex = "#"
 
-    for(var i = 0; i < 6; i++) {
+    for(var i = 0; i < 6; i++) 
         hex += colours[randomHexColour()]
-    }
-
+    
     hexColour.textContent = hex;
     bodyClass.style.backgroundColor = hex;
 })
 
-function randomHexColour() {
+function randomHexColour() 
     return Math.floor(Math.random() * colours.length);
-}

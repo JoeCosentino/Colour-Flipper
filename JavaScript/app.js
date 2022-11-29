@@ -11,6 +11,5 @@ button.addEventListener('click', function() {
     document.body.style.backgroundColor = newColour;
 })
 
-function randomColour() {
+function randomColour() 
     return Math.floor(Math.random() * colours.length)
-}
